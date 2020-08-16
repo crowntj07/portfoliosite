@@ -1,0 +1,139 @@
+/*-- BODY --*/
+body{
+   margin: 0;
+   padding: 0;
+   background: url(./assets/image/colorful.jpg);
+   background-size: cover;
+}
+/*=========== TOP BAR HEADER /*===========*/
+
+/*=========== Nav Bar /*===========*/
+.navbar {
+   font-size: 1.15rem;
+   font-weight: 600;
+   letter-spacing: .1rem;
+   background-color: #f80a65;
+}
+.nav-item{
+   padding: .5rem;
+}
+.nav-link{
+   color: springgreen;
+}
+.nav-link.active,
+.nav-link:hover{
+   color: violet;
+}
+/*=========== About Me ==========*/
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-sizing: border-box;
+}
+
+
+.about-section{
+   background: url(./assets/image/20200812_130113updated.jpg) no-repeat left;
+   background-size: 33%;
+   background-color: rgb(9, 148, 153);
+   overflow: hidden;
+   padding: 100px 0;
+}
+
+.inner-container{
+   width: 55%;
+   float: right;
+   background-color: rgb(111, 13, 192);
+   padding: 150px;
+}
+
+.text{
+   font-size: 13px;
+   color: seashell;
+   line-height: 30px;
+   text-align: justify;
+   margin-bottom: 40px;
+}
+
+@media screen and (max-width:1200px){
+   .inner-container{
+      padding: 80px;
+   }
+}
+@media screen and (max-width:1000px){
+   .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+   }
+   .inner-container{
+      width: 100%;
+   }
+}
+@media screen and (max-width:600px){
+   .about-section{
+      padding: 0;
+   }
+   .inner-container{
+      padding: 60px;
+   }
+}
+
+/*=========== Form Contact==========*/
+input[type=text], select, textarea {
+   width: 100%; 
+   padding: 12px; 
+   border: 1px solid rgb(137, 35, 253); 
+   border-radius: 4px; 
+   box-sizing: border-box; 
+   margin-top: 8px; 
+   margin-bottom: 16px; 
+   resize: vertical 
+ }
+ input[type=submit] {
+   background-color: #e0096e;
+   color: rgb(255, 255, 255);
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ input[type=submit]:hover {
+   background-color: #890bd3;
+ }
+ 
+ .container {
+   border-radius: 5px;
+   background-color: #c6d7da;
+   padding: 20px;
+ }
+
+
+ /*=========== Footer==========*/
+ .all-browsers {
+   margin: 0;
+   padding: 5px;
+   background-color: lightgray;
+ }
+ 
+ .all-browsers > h1, .browser {
+   margin: 10px;
+   padding: 5px;
+ }
+ 
+ .browser {
+   background: white;
+ }
+ 
+ .browser > h2, p {
+   margin: 4px;
+   font-size: 90%;
+ }
+ 
+ footer {
+   text-align: center;
+   padding: 3px;
+   background-color: rgb(13, 238, 5);
+   color: white;
+ }
